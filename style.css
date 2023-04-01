@@ -1,0 +1,85 @@
+/* basic selector */
+/*p {
+  color: red;
+}
+
+#fifth {
+  color: purple;
+}
+
+.pg {
+  color: green !important;
+}
+*/
+/*
+section {
+  background: black;
+  color: white;
+}
+/* Descendant (space) */
+section p {
+  color: green;
+}
+/* child (>) */
+
+section > p {
+  color: red;
+}
+
+/* Adjacent (+) */
+section + div {
+  color: brown;
+}
+
+/*sibling () */
+section ~ div {
+  color: cyan;
+}
+
+section div p {
+  font-size: 32px;
+}
+
+/* Attribute selector*/
+
+/*attribute-name remove the underline in a tag through attribute
+
+*/
+
+[href] {
+  text-decoration: none;
+  color: red;
+}
+
+/* [attribute -name "value"] */
+
+[href="contact.html"] {
+  background: brown;
+  color: white;
+}
+
+/*element[attribute-name] */
+
+a[href] {
+  text-decoration: line-through;
+  color: pink;
+}
+
+/*pseudo-elements selector*/
+p::first-letter {
+  font-size: 32px;
+}
+p::first-line {
+  color: cyan;
+}
+
+/* pseudo-class selector */
+
+a:hover {
+  font-size: 50px;
+  text-shadow: 0cqmin;
+}
+
+p:nth-child(odd) {
+  color: red;
+}
